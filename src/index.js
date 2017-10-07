@@ -26,7 +26,7 @@ async function webDriveGoogle(url, opts) {
 
 	const id = getId(url)
 	if( !id )
-		throw 'invalid url'
+		return null
 
 	const viewUrl = urlMaker.getView(id)
 
