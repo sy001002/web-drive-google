@@ -1,6 +1,6 @@
 {
   "name": "web-drive-google",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.js",
   "repository": "https://github.com/sy001002/web-drive-google.git",
   "author": "SY",
