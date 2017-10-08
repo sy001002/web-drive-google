@@ -26,7 +26,7 @@ async function fetchMeta(url, opts) {
 
 	const id = getId(url)
 	if( !id )
-		return null
+		throw 'invalid url'
 
 	const viewUrl = urlMaker.getView(id)
 
